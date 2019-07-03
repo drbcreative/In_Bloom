@@ -29,7 +29,7 @@
       display: grid;
       grid-template-rows: auto;
       grid-template-columns: 1fr 1fr;
-      padding: 0.2rem 0.5rem;
+      padding: 0.2rem 0;
 
       .col-left {
         grid-row: 1;
@@ -51,6 +51,34 @@
       }
     }
   }
+
+  /* BRANDBAR *************************************************************** */
+  .brandbar {
+    .containerish {
+      // width: 95%;
+      max-width: 100% !important;
+      margin: 0 auto;
+      height: auto;
+      padding: 20px 0;
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      grid-gap: 1rem;
+      align-items: center;
+
+
+      .col-right {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        .brandbar-item:not(:last-child) {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+
+  /* NAVBAR ***************************************************************** */
 
   /* HERO ******************************************************************* */
   /* COOLSCULPTING EVENT **************************************************** */
@@ -85,7 +113,6 @@
   .topbar {
     .containerish {
       grid-template-columns: max-content 1fr max-content;
-      padding: 0.2rem 1rem;
 
       .col-left {
         grid-row: 1;
@@ -109,6 +136,50 @@
         align-items: center;
         justify-content: flex-end;
       }
+    }
+  }
+
+  /* BRANDBAR *************************************************************** */
+  .brandbar {
+    .containerish {
+      width: 95%;
+      margin: 0 auto;
+      height: auto;
+      padding: 20px 0;
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      grid-gap: 1rem;
+      align-items: center;
+
+      .col-right {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+
+        .brandbar-item:not(:last-child) {
+          margin-right: 2rem;
+        }
+      }
+    }
+  }
+
+  /* NAVBAR ***************************************************************** */
+  .navbar-wrapper {
+    background: $color-extra-light;
+    position: relative;
+
+    .containerish {
+      max-width: 100%;
+      padding: 0;
+      display: grid;
+      grid-template-columns: 1fr 170px;
+      grid-gap: 2rem;
+      align-items: center;
+
+      .col-left {
+        padding-left: 3%;
+      }
+
     }
   }
 
@@ -141,13 +212,66 @@
   /* TOPBAR ******************************************************* */
   .topbar {
     .containerish {
-      .topbar-link {
-        // margin-right: 1rem;
-        display: inline-flex;
+      width: 95%;
+      max-width: 1200px;
+      margin: 0 auto;
+      height: auto;
+      padding: 0;
+      display: grid;
+      grid-gap: 1rem;
+      align-items: center;
+
+      .col-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: block;
+
+        .social-wrapper {
+          margin-right: 1rem;
+          display: inline-block;
+
+          i {
+            margin-right: .5rem;
+          }
+        }
       }
 
-      padding: 0.2rem 2rem;
+      .col-center {
+        text-align: center;
+        align-items: center;
+        display: block;
+        grid-column: 2 / 3;
+        grid-row: 1;
+
+        p {
+          margin: 0;
+        }
+      }
+
+      .col-right {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        grid-column: 3 / 4;
+        grid-row: 1;
+
+        .topbar-nav {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+
+          a: {
+            margin-right: 1rem;
+          }
+        }
+      }
     }
+  }
+
+  /* NAVBAR ***************************************************************** */
+  .nav-item {
+    margin-right: 1rem;
   }
 
   /* HERO ******************************************************************* */

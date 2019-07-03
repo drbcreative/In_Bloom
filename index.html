@@ -17,18 +17,123 @@
 <body>
   <header>
     <!-- topbar -->
-    <div class="topbar">
+    <div class="topbar d-none d-md-block">
       <div class="containerish">
         <div class="col-left">
-
+          <div class="social-wrapper">
+            <a href="#" class="topbar-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="topbar-link"><i class="fab fa-facebook-f"></i></a>
+          </div>
+          <a href="#" class="topbar-link">
+            25 Buttrick Rd., Suite C1, Londonderry, NH 03053
+          </a>
         </div>
-        <div class="col-right d-none d-md-inline-flex">
+        <div class="col-center">
+          <p class="small-copy is-bold color-white">
+            Refer a friend and you will BOTH receive $25 off your next appointment!
+          </p>
+        </div>
+        <div class="col-right">
+          <ul class="topbar-nav">
+            <li><a href="#" class="topbar-link">Blog</a></li>
+            <li><a href="#" class="topbar-link">Events</a></li>
+            <li><a href="#" class="topbar-link">Promotions</a></li>
+          </ul>
         </div>
       </div>
     </div>
     <!-- /topbar -->
 
+    <!-- brand bar -->
+    <div class="brandbar">
+      <div class="containerish">
+        <div class="col-left">
+          <img src="img/logo@2x.png" class="header-logo" alt="inBloom Health - Naturally Beautiful">
+        </div>
+        <div class="col-right">
+          <a href="#" class="book-now d-block d-md-none">BOOK NOW</a>
+
+          <div class="brandbar-item item-1 d-none d-md-block">
+            <i class="fas fa-phone color-main"></i>
+            <a href="#" class="brandbar-link">(603) 818-8777</a>
+          </div>
+          <div class="brandbar-item item-2 d-none d-md-block">
+            <i class="fas fa-envelope color-main"></i>
+            <a href="#" class="brandbar-link">Email us</a>
+          </div>
+          <div class="brandbar-item item-3 d-none d-xl-block">
+            <i class="fas fa-clock color-main"></i>
+            <a href="#" class="brandbar-link">Mon, Wed, Thurs 9am-5pm, Tues 10am-6pm & Fri 9am-4pm</a>
+          </div>
+          <div class="brandbar-item item-4 d-none d-md-block">
+            <i class="fas fa-leaf color-main"></i>
+            <a href="#" class="brandbar-link">Purchase Supplements</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /brand bar -->
+
     <!-- navbar -->
+    <div class="navbar-wrapper">
+      <div class="containerish">
+        <div class="col-left">
+          <nav class="navbar navbar-expand-lg navbar-light px-0">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#main-nav"
+              aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="main-nav">
+              <div class="navbar-nav mr-auto px-0">
+                <span class="nav-item">
+                  <a href="#" class="nav-link" role="button">About</a>
+                </span>
+                <span class="nav-item nav-divider d-none d-lg-inline-flex"></span>
+                <span class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" id="aboutdown" role="button"
+                    data-toggle="dropdown">Conditions</a>
+                  <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Sub-Link</a>
+                    <a href="#" class="dropdown-item">Sub-Link</a>
+                    <a href="#" class="dropdown-item">Sub-Link</a>
+                    <a href="#" class="dropdown-item">Sub-Link</a>
+                    <a href="#" class="dropdown-item">Sub-Link</a>
+                  </div>
+                </span>
+                <span class="nav-item nav-divider d-none d-lg-inline-flex"></span>
+                <span class="nav-item">
+                  <a href="#" class="nav-link" role="button">Coolsculpting</a>
+                </span>
+                <span class="nav-item nav-divider d-none d-lg-inline-flex"></span>
+                <span class="nav-item">
+                  <a href="#" class="nav-link" role="button">Aesthetics</a>
+                </span>
+                <span class="nav-item nav-divider d-none d-lg-inline-flex"></span>
+                <span class="nav-item">
+                  <a href="#" class="nav-link" role="button">Wellness</a>
+                </span>
+                <span class="nav-item nav-divider d-none d-lg-inline-flex"></span>
+                <span class="nav-item">
+                  <a href="#" class="nav-link" role="button">Patient Info</a>
+                </span>
+                <span class="nav-item nav-divider d-none d-lg-inline-flex"></span>
+                <span class="nav-item">
+                  <a href="#" class="nav-link" role="button">Contact</a>
+                </span>
+                <span class="nav-item nav-divider d-none d-lg-inline-flex"></span>
+                <span class="nav-item">
+                  <a href="#" class="nav-link" role="button"><i class="fas fa-search"></i></a>
+                </span>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="col-right d-none d-lg-block">
+          <a href="#" class="book-now d-none d-md-block">BOOK NOW</a>
+        </div>
+      </div>
+    </div>
 
     <!-- /navbar -->
   </header>
@@ -75,7 +180,7 @@
     <!-- /testimonials -->
 
     <!-- newsletter -->
-    <section class="newsletter">
+    <!-- <section class="newsletter">
       <form action="" class="containerish">
         <h2 class="color-white">
           Sign-Up For Our Newsletter
@@ -90,7 +195,9 @@
           SIGN UP
         </button>
       </form>
-    </section>
+    </section> -->
+
+
   </main>
 
   <footer>
@@ -99,7 +206,7 @@
     <!-- /footer 1 -->
 
     <!-- footer 2 -->
-    <section class="footer2">
+    <!-- <section class="footer2">
       <div class="containerish">
         <div class="foot-left d-none d-lg-block">
           <a href="#" class="social-link">
@@ -120,7 +227,7 @@
           </p>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- /footer 2 -->
   </footer>
 
