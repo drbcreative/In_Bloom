@@ -85,10 +85,35 @@ section {
 /* -------------------------------------------------------------------------- */
 /* ABOUT US SECTION */
 /* -------------------------------------------------------------------------- */
+.about {
+  background: url('../../img/about-bg@2x.jpg') center / cover;
+  padding: 40px 20px;
+
+  .containerish {
+    display: grid;
+
+    .section-info {
+      text-align: center;
+    }
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* COOLSCULPTING SECTION */
 /* -------------------------------------------------------------------------- */
+.coolsculpting {
+  background: url('../../img/coolsculpting-bg@2x.jpg') center / cover;
+  min-height: 300px;
+  padding: 40px 20px;
+
+  .containerish {
+    display: grid;
+
+    .section-info {
+      text-align: center;
+    }
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* JEUVEAU SECTION */

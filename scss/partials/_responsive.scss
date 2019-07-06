@@ -82,7 +82,6 @@
   /* HERO ******************************************************************* */
   /* COOLSCULPTING EVENT **************************************************** */
   .event {
-    background: url('../../img/event-bg@2x.jpg') center / cover;
     min-height: 300px;
     padding: 40px 20px;
 
@@ -102,7 +101,43 @@
   }
 
   /* ABOUT US *************************************************************** */
+  .about {
+    padding: 40px 20px;
+
+    .containerish {
+      display: grid;
+      grid-gap: 2rem;
+
+      img {
+        max-width: 75%;
+        justify-self: center;
+      }
+
+      .section-info {
+        text-align: center;
+      }
+    }
+  }
+
   /* COOLSCULPTING ********************************************************** */
+  .coolsculpting {
+    padding: 40px 20px;
+
+    .containerish {
+      display: grid;
+      grid-gap: 2rem;
+
+      img {
+        max-width: 75%;
+        justify-self: center;
+      }
+
+      .section-info {
+        text-align: center;
+      }
+    }
+  }
+
   /* JEUVEAU **************************************************************** */
   /* AESTHETIC SERVICES ***************************************************** */
   /* FEATURED SERVICES ****************************************************** */
@@ -269,7 +304,60 @@
   }
 
   /* ABOUT US *************************************************************** */
+  .about {
+    padding: 0px 20px 0 20px;
+    overflow: visible;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      align-items: center;
+
+      grid-gap: 2rem;
+
+      img {
+        max-width: 100%;
+        justify-self: center;
+        position: relative;
+        top: 50px;
+      }
+
+      .section-info {
+        text-align: left;
+      }
+    }
+  }
+
   /* COOLSCULPTING ********************************************************** */
+  .coolsculpting {
+    padding: 0px 0px 0 20px;
+    overflow: visible;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 200px 1fr 1.5fr;
+      grid-gap: 0;
+
+      img {
+        grid-column: 2 / -1;
+        grid-row: 1;
+        position: relative;
+        bottom: 0;
+        height: auto;
+        width: 700px;
+        justify-self: end;
+      }
+
+      .section-info {
+        text-align: left;
+        grid-column: 1 / 3;
+        grid-row: 1;
+        align-self: center;
+        margin-top: 20%;
+      }
+    }
+  }
+
   /* JEUVEAU **************************************************************** */
   /* AESTHETIC SERVICES ***************************************************** */
   /* FEATURED SERVICES ****************************************************** */
@@ -379,6 +467,30 @@
 
   /* ABOUT US *************************************************************** */
   /* COOLSCULPTING ********************************************************** */
+  .about {
+    padding: 0px 20px 0 20px;
+    overflow: visible;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      align-items: center;
+      grid-gap: 2rem;
+
+      img {
+        max-width: 444px;
+        justify-self: flex-start;
+        position: relative;
+        top: 50px;
+      }
+
+      .section-info {
+        text-align: left;
+        justify-self: center;
+      }
+    }
+  }
+
   /* JEUVEAU **************************************************************** */
   /* AESTHETIC SERVICES ***************************************************** */
   /* FEATURED SERVICES ****************************************************** */

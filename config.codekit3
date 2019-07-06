@@ -134,7 +134,7 @@
 		"oAP": "/img/coolsculpting-bg@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/coolsculpting-event-img@2x.jpg": {
@@ -165,8 +165,8 @@
 		"oA": 0,
 		"oAP": "/img/coolsculpting-img@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
