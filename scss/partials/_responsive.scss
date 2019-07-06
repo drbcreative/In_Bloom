@@ -79,9 +79,28 @@
   }
 
   /* NAVBAR ***************************************************************** */
-
   /* HERO ******************************************************************* */
   /* COOLSCULPTING EVENT **************************************************** */
+  .event {
+    background: url('../../img/event-bg@2x.jpg') center / cover;
+    min-height: 300px;
+    padding: 40px 20px;
+
+    .containerish {
+      display: grid;
+      grid-gap: 2rem;
+
+      img {
+        max-width: 75%;
+        justify-self: center;
+      }
+
+      .section-info {
+        text-align: center;
+      }
+    }
+  }
+
   /* ABOUT US *************************************************************** */
   /* COOLSCULPTING ********************************************************** */
   /* JEUVEAU **************************************************************** */
@@ -226,6 +245,29 @@
   }
 
   /* COOLSCULPTING EVENT **************************************************** */
+  .event {
+    background: url('../../img/event-bg@2x.jpg') center / cover;
+    min-height: 300px;
+    padding: 40px 20px;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      align-items: center;
+      grid-gap: 2rem;
+
+      img {
+        max-width: 100%;
+        justify-self: center;
+      }
+
+      .section-info {
+        text-align: left;
+        justify-self: center;
+      }
+    }
+  }
+
   /* ABOUT US *************************************************************** */
   /* COOLSCULPTING ********************************************************** */
   /* JEUVEAU **************************************************************** */
@@ -312,6 +354,29 @@
 
   /* HERO ******************************************************************* */
   /* COOLSCULPTING EVENT **************************************************** */
+  .event {
+    background: url('../../img/event-bg@2x.jpg') center / cover;
+    min-height: 300px;
+    padding: 40px 20px;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      align-items: center;
+      grid-gap: 2rem;
+
+      img {
+        max-width: 100%;
+        justify-self: center;
+      }
+
+      .section-info {
+        text-align: left;
+        justify-self: center;
+      }
+    }
+  }
+
   /* ABOUT US *************************************************************** */
   /* COOLSCULPTING ********************************************************** */
   /* JEUVEAU **************************************************************** */

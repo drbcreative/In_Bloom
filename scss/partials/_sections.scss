@@ -68,6 +68,19 @@ section {
 /* -------------------------------------------------------------------------- */
 /* COOLSCULPTING EVENT SECTION */
 /* -------------------------------------------------------------------------- */
+.event {
+  background: url('../../img/event-bg@2x.jpg') center / cover;
+  min-height: 300px;
+  padding: 40px 20px;
+
+  .containerish {
+    display: grid;
+
+    .section-info {
+      text-align: center;
+    }
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* ABOUT US SECTION */
