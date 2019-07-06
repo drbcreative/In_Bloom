@@ -22,10 +22,9 @@ h5 h6 {
 
 /* Primary Header */
 h1 {
-  //Not used on this project
   font-family: $font-secondary;
-  font-size: 3.125; // 50px
-  line-height: 3.125;
+  font-size: 3.125rem; // 50px
+  line-height: 3.125rem;
   font-weight: 300;
 
   &.is-bold {

@@ -19,7 +19,7 @@
 @media screen and (min-width: 768px) {
   .ui-btn {
     display: inline-flex;
-    min-width: 220px;
+    min-width: 175px;
   }
 
   /* TOPBAR ***************************************************************** */
@@ -102,7 +102,7 @@
     display: inline-flex;
     width: auto;
     padding: 0.8rem 0.5rem;
-    width: 225px;
+    width: 175px;
   }
 
   .dropdown:hover>.dropdown-menu {
@@ -184,6 +184,47 @@
   }
 
   /* HERO ******************************************************************* */
+  .hero {
+
+    .carousel-indicators {
+      position: absolute;
+      right: 0;
+      bottom: 10px;
+      // left: 0;
+      z-index: 15;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: center;
+      justify-content: flex-end;
+      padding-left: 0;
+      margin-right: 2%;
+      // margin-left: 15%;
+      list-style: none;
+      // background: red;
+    }
+
+    // .carousel {}
+
+    .carousel-item {
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+      }
+
+      .slide {
+        display: flex;
+        align-items: center;
+        height: 600px;
+      }
+    }
+  }
+
   /* COOLSCULPTING EVENT **************************************************** */
   /* ABOUT US *************************************************************** */
   /* COOLSCULPTING ********************************************************** */
@@ -203,11 +244,6 @@
 @media screen and (min-width: 1200px) {
 
   /* TOPBAR ******************************************************* */
-  header {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
 
   /* TOPBAR ******************************************************* */
   .topbar {
@@ -294,6 +330,16 @@
 @media screen and (min-width: 1400px) {
 
   /* HERO ******************************************************************* */
+  .hero {
+    .carousel-item {
+      .slide {
+        display: flex;
+        align-items: center;
+        height: 700px;
+      }
+    }
+  }
+
   /* COOLSCULPTING EVENT **************************************************** */
   /* ABOUT US *************************************************************** */
   /* COOLSCULPTING ********************************************************** */
@@ -311,8 +357,19 @@
 /* SUPER LARGE BREAKPOINT (IMAC STATUS 1900px and up) */
 /* -------------------------------------------------------------------------- */
 @media screen and (min-width: 1900px) {
+
   /* TOPBAR ***************************************************************** */
   /* HERO ******************************************************************* */
+  .hero {
+    .carousel-item {
+      .slide {
+        display: flex;
+        align-items: center;
+        height: 60vh;
+      }
+    }
+  }
+
   /* COOLSCULPTING EVENT **************************************************** */
   /* ABOUT US *************************************************************** */
   /* COOLSCULPTING ********************************************************** */
