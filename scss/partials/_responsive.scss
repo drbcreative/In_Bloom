@@ -718,6 +718,51 @@
   }
 
   /* NEWSLETTER ************************************************************* */
+  .newsletter {
+    align-items: center;
+
+    .containerish {
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr .5fr;
+      grid-column-gap: 1rem;
+      grid-row-gap: .5rem;
+
+      h3,
+      h2,
+      p {
+        text-align: center;
+      }
+
+      p {
+        margin-top: 0.5rem;
+      }
+
+      .form-control {
+        margin-bottom: 0.5rem;
+        border-radius: 0;
+      }
+
+      .form-control:last-child {
+        margin-bottom: 0;
+      }
+
+      h2 {
+        grid-row: 1;
+        grid-column: 1 / -1;
+      }
+
+      p {
+        grid-row: 2;
+        grid-column: 1 / -1;
+      }
+
+      .ui-btn {
+        width: 100%;
+      }
+    }
+  }
+
   /* FOOTER ***************************************************************** */
 }
 
@@ -1026,6 +1071,7 @@
   }
 
   /* NEWSLETTER ************************************************************* */
+
   /* FOOTER ***************************************************************** */
 }
 
