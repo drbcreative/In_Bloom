@@ -172,9 +172,11 @@ section {
   min-height: 300px;
   background: $color-extra-light;
 
+
   .containerish {
     display: grid;
     grid-gap: 2rem;
+    margin-top: 4rem;
   }
 
   .service {
