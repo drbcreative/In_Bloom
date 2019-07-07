@@ -207,6 +207,53 @@ section {
 /* -------------------------------------------------------------------------- */
 /* CONDITIONS WE TREAT SECTION */
 /* -------------------------------------------------------------------------- */
+.conditions {
+  background: $color-extra-light;
+  min-height: 300px;
+
+  .conditions-bg {
+    background-image: radial-gradient(#FFF8FC, #F6E1EB);
+    max-width: 100%;
+  }
+
+  .containerish {
+    min-height: 300px;
+    padding: 40px 20px;
+    display: grid;
+
+    h2 {
+      margin-bottom: 2rem !important;
+    }
+  }
+
+  .conditions-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    .condition {
+      margin-bottom: 1rem;
+
+      &::before {
+        content: url('../../img/service-bullet.png');
+        margin-right: .5rem;
+      }
+
+      a {
+        font-size: 22px;
+        color: $color-dark;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+          color: $color-main;
+          text-decoration: none;
+          transition: all .3s ease-in-out;
+        }
+      }
+    }
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* BIO SECTION */
