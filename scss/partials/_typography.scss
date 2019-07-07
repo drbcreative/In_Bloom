@@ -81,6 +81,29 @@ h6 {
   font-weight: 400;
 }
 
+.testimonial-copy {
+  font-family: $font-primary;
+  font-size: 1.875rem; // 30px
+  line-height: 45px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.testimonial-title {
+  font-family: $font-primary;
+  font-size: 55px;
+  line-height: 50px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.testimonial-sub-title {
+  font-family: $font-primary;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 500;
+  font-style: normal;
+}
 
 //Body Text
 .body-copy {

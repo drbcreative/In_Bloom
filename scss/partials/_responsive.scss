@@ -638,6 +638,85 @@
   }
 
   /* TESTIMONIALS *********************************************************** */
+  .testimonials {
+    background: url('../../img/testimonial-bg@2x.jpg') center / cover;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .containerish {
+      display: flex;
+      flex-direction: column;
+
+      .section-header {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .carousel {
+      .carousel-indicators li {
+        position: relative;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        width: 15px;
+        height: 15px;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, .2);
+        border-radius: 50%;
+
+        &.active {
+          background-color: rgba($color-white, 1);
+        }
+      }
+
+      .carousel-control-prev {
+        left: 30%;
+      }
+
+      .carousel-control-next {
+        right: 30%;
+      }
+
+      .carousel-control-next,
+      .carousel-control-prev {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: flex-end;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 15%;
+        color: #fff;
+        text-align: center;
+        opacity: .5;
+        // background: red;
+        padding-bottom: 1.4rem;
+      }
+    }
+
+    .slide-content {
+      // background: green;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 1rem 0 4rem 0;
+
+      img {
+        max-width: 150px;
+        height: auto;
+      }
+    }
+  }
+
   /* NEWSLETTER ************************************************************* */
   /* FOOTER ***************************************************************** */
 }
@@ -867,6 +946,85 @@
   }
 
   /* TESTIMONIALS *********************************************************** */
+  .testimonials {
+    background: url('../../img/testimonial-bg@2x.jpg') center / cover;
+    padding: 100px 20px 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .containerish {
+      display: flex;
+      flex-direction: column;
+
+      .section-header {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .carousel {
+      .carousel-indicators li {
+        position: relative;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        width: 15px;
+        height: 15px;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, .2);
+        border-radius: 50%;
+
+        &.active {
+          background-color: rgba($color-white, 1);
+        }
+      }
+
+      .carousel-control-prev {
+        left: 30%;
+      }
+
+      .carousel-control-next {
+        right: 30%;
+      }
+
+      .carousel-control-next,
+      .carousel-control-prev {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: flex-end;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 15%;
+        color: #fff;
+        text-align: center;
+        opacity: .5;
+        // background: red;
+        padding-bottom: 1.4rem;
+      }
+    }
+
+    .slide-content {
+      // background: green;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 1rem 0 4rem 0;
+
+      img {
+        max-width: 150px;
+        height: auto;
+      }
+    }
+  }
+
   /* NEWSLETTER ************************************************************* */
   /* FOOTER ***************************************************************** */
 }
