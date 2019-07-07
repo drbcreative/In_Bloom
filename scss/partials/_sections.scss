@@ -258,10 +258,28 @@ section {
 /* -------------------------------------------------------------------------- */
 /* BIO SECTION */
 /* -------------------------------------------------------------------------- */
+.bio {
+  background: url('../../img/bio-bg@2x.jpg') center / cover;
+  min-height: 200px;
+  padding: 40px 20px;
+
+  .containerish {
+    display: grid;
+    grid-gap: 1rem;
+
+    .section-info {
+      text-align: center;
+    }
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* TESTIMONIALS SECTION */
 /* -------------------------------------------------------------------------- */
+.testimonials {
+  background: url('../../img/testimonial-bg@2x.jpg') center / cover;
+  min-height: 300px;
+}
 
 /* -------------------------------------------------------------------------- */
 /* NEWSLETTER SECTION */

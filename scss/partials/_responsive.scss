@@ -271,6 +271,22 @@
   }
 
   /* BIO ******************************************************************** */
+  .bio {
+    background: url('../../img/bio-bg@2x.jpg') center / cover;
+    min-height: 200px;
+    padding: 40px 20px;
+
+    .containerish {
+      display: grid;
+      grid-gap: 1rem;
+
+      img {
+        max-width: 75%;
+        justify-self: center;
+      }
+    }
+  }
+
   /* TESTIMONIALS *********************************************************** */
   /* NEWSLETTER ************************************************************* */
   /* FOOTER ***************************************************************** */
@@ -596,6 +612,31 @@
   }
 
   /* BIO ******************************************************************** */
+  .bio {
+    background: url('../../img/bio-bg@2x.jpg') center / cover;
+    min-height: 200px;
+    padding: 40px 20px;
+    overflow: visible;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      grid-gap: 1rem;
+      align-items: center;
+
+      .section-info {
+        text-align: left;
+      }
+
+      img {
+        max-width: 100%;
+        justify-self: end;
+        position: relative;
+        bottom: 0;
+      }
+    }
+  }
+
   /* TESTIMONIALS *********************************************************** */
   /* NEWSLETTER ************************************************************* */
   /* FOOTER ***************************************************************** */
@@ -800,6 +841,31 @@
   }
 
   /* BIO ******************************************************************** */
+  .bio {
+    background: url('../../img/bio-bg@2x.jpg') center / cover;
+    min-height: 200px;
+    padding: 40px 20px 0 20px;
+    overflow: visible;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 4rem;
+      align-items: center;
+
+      .section-info {
+        text-align: left;
+      }
+
+      img {
+        max-width: 100%;
+        justify-self: end;
+        position: relative;
+        bottom: -50px;
+      }
+    }
+  }
+
   /* TESTIMONIALS *********************************************************** */
   /* NEWSLETTER ************************************************************* */
   /* FOOTER ***************************************************************** */
