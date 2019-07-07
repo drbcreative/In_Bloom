@@ -93,6 +93,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/antiaging-img.png": {
+		"ft": 32768,
+		"iS": 51302,
+		"oA": 0,
+		"oAP": "/img/antiaging-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/antiaging-img@2x.jpg": {
 		"ft": 16384,
 		"iS": 19391,
@@ -102,6 +113,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/img/antiaging-img@2x.png": {
+		"ft": 32768,
+		"iS": 165632,
+		"oA": 0,
+		"oAP": "/img/antiaging-img@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/bio-bg@2x.jpg": {
@@ -192,6 +214,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/img/event-bg@2x.jpg": {
+		"ft": 16384,
+		"iS": 15669,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/event-bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/featured-service-bg@2x.jpg": {
 		"ft": 16384,
 		"iS": 49325,
@@ -214,6 +247,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/functionalmedicine-img.png": {
+		"ft": 32768,
+		"iS": 46128,
+		"oA": 0,
+		"oAP": "/img/functionalmedicine-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/functionalmedicine-img@2x.jpg": {
 		"ft": 16384,
 		"iS": 14795,
@@ -223,6 +267,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/img/functionalmedicine-img@2x.png": {
+		"ft": 32768,
+		"iS": 143589,
+		"oA": 0,
+		"oAP": "/img/functionalmedicine-img@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/hero-bg@2x.jpg": {
@@ -236,6 +291,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/horomnebalancing-img.png": {
+		"ft": 32768,
+		"iS": 47855,
+		"oA": 0,
+		"oAP": "/img/horomnebalancing-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/horomnebalancing-img@2x.jpg": {
 		"ft": 16384,
 		"iS": 16144,
@@ -245,6 +311,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/img/horomnebalancing-img@2x.png": {
+		"ft": 32768,
+		"iS": 148483,
+		"oA": 0,
+		"oAP": "/img/horomnebalancing-img@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/ig-img@2x.jpg": {
@@ -258,6 +335,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/integritivemedicine-img.png": {
+		"ft": 32768,
+		"iS": 45737,
+		"oA": 0,
+		"oAP": "/img/integritivemedicine-img.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/integritivemedicine-img@2x.jpg": {
 		"ft": 16384,
 		"iS": 15051,
@@ -269,6 +357,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/integritivemedicine-img@2x.png": {
+		"ft": 32768,
+		"iS": 141672,
+		"oA": 0,
+		"oAP": "/img/integritivemedicine-img@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/ivtherapy-img.png": {
+		"ft": 32768,
+		"iS": 44048,
+		"oA": 0,
+		"oAP": "/img/ivtherapy-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/ivtherapy-img@2x.jpg": {
 		"ft": 16384,
 		"iS": 14126,
@@ -278,6 +388,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/img/ivtherapy-img@2x.png": {
+		"ft": 32768,
+		"iS": 134499,
+		"oA": 0,
+		"oAP": "/img/ivtherapy-img@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/jeyveau-bg@2x.jpg": {
@@ -368,6 +489,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/thyroidhealth-img.png": {
+		"ft": 32768,
+		"iS": 45135,
+		"oA": 0,
+		"oAP": "/img/thyroidhealth-img.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/thyroidhealth-img@2x.jpg": {
 		"ft": 16384,
 		"iS": 16040,
@@ -377,6 +509,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/img/thyroidhealth-img@2x.png": {
+		"ft": 32768,
+		"iS": 141089,
+		"oA": 0,
+		"oAP": "/img/thyroidhealth-img@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/index.html": {

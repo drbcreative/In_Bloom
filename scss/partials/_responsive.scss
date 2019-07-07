@@ -140,7 +140,7 @@
 
   /* JEUVEAU **************************************************************** */
   .jeuveau {
-    padding: 40px 0 0 0;
+    padding: 40px 0 20px 0;
 
     .containerish {
       display: grid;
@@ -173,7 +173,51 @@
   }
 
   /* AESTHETIC SERVICES ***************************************************** */
+  .aesthetic-services {
+    padding: 60px 20px;
+
+    .ui-btn {
+      margin-bottom: 0;
+    }
+  }
+
   /* FEATURED SERVICES ****************************************************** */
+  .featured {
+    padding: 60px 20px;
+    min-height: 300px;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 2rem;
+      grid-row-gap: 4rem;
+    }
+
+    .service {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        max-width: 151px;
+        height: auto;
+      }
+
+      .service-info {
+        .service-link {
+          color: $color-main;
+          transition: all .3s ease-in-out;
+
+          &:hover {
+            color: $color-dark;
+            text-decoration: none;
+            transition: all .3s ease-in-out;
+          }
+        }
+      }
+    }
+  }
+
   /* CONDITIONS WE TREAT **************************************************** */
   /* BIO ******************************************************************** */
   /* TESTIMONIALS *********************************************************** */
@@ -393,7 +437,7 @@
 
   /* JEUVEAU **************************************************************** */
   .jeuveau {
-    padding: 40px 0 0 0;
+    padding: 40px 0 20px 0;
 
     .containerish {
       display: grid;
@@ -420,6 +464,32 @@
 
   /* AESTHETIC SERVICES ***************************************************** */
   /* FEATURED SERVICES ****************************************************** */
+  .featured {
+    padding: 60px 20px;
+    min-height: 300px;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 2rem;
+      grid-row-gap: 4rem;
+      align-items: flex-start;
+    }
+
+    .service {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-row-gap: 1rem;
+      align-items: flex-start;
+
+      img {
+        max-width: 151px;
+        height: auto;
+        justify-self: center;
+      }
+    }
+  }
+
   /* CONDITIONS WE TREAT **************************************************** */
   /* BIO ******************************************************************** */
   /* TESTIMONIALS *********************************************************** */
@@ -579,6 +649,33 @@
 
   /* AESTHETIC SERVICES ***************************************************** */
   /* FEATURED SERVICES ****************************************************** */
+  .featured {
+    padding: 60px 20px;
+    min-height: 300px;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 4rem;
+      grid-row-gap: 4rem;
+      align-items: flex-start;
+    }
+
+    .service {
+      display: grid;
+      grid-template-columns: max-content 2fr;
+      grid-row-gap: 1rem;
+      grid-column-gap: 1.5rem;
+      align-items: flex-start;
+
+      img {
+        max-width: 151px;
+        height: auto;
+        justify-self: center;
+      }
+    }
+  }
+
   /* CONDITIONS WE TREAT **************************************************** */
   /* BIO ******************************************************************** */
   /* TESTIMONIALS *********************************************************** */

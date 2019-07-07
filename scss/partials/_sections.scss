@@ -149,10 +149,58 @@ section {
 /* -------------------------------------------------------------------------- */
 /* AESTHETIC SERVICES SECTION */
 /* -------------------------------------------------------------------------- */
+.aesthetic-services {
+  background: url('../../img/newsletter-bg@2x.jpg') center / cover;
+  min-height: 200px;
+  padding: 40px 20px;
+
+  .containerish {
+    display: grid;
+
+    .section-info {
+      text-align: center;
+    }
+
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* FEATURED SERVICES SECTION */
 /* -------------------------------------------------------------------------- */
+.featured {
+  padding: 40px 20px;
+  min-height: 300px;
+  background: $color-extra-light;
+
+  .containerish {
+    display: grid;
+    grid-gap: 2rem;
+  }
+
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      max-width: 151px;
+      height: auto;
+    }
+
+    .service-info {
+      .service-link {
+        color: $color-main;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+          color: $color-dark;
+          text-decoration: none;
+          transition: all .3s ease-in-out;
+        }
+      }
+    }
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* CONDITIONS WE TREAT SECTION */
