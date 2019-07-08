@@ -290,6 +290,110 @@
   /* TESTIMONIALS *********************************************************** */
   /* NEWSLETTER ************************************************************* */
   /* FOOTER ***************************************************************** */
+  .footer1 {
+    min-height: 400px;
+
+    .containerish {
+      display: grid;
+
+      .col-left {
+        background: #fff;
+        padding: 40px 20px;
+        max-width: 75%;
+        justify-self: center;
+
+        .ig-wrapper {
+          background: url('../../img/ig-img@2x.jpg') center / cover;
+          width: 100%;
+          height: 340px;
+          position: relative;
+
+          .ig-follow {
+            background: $color-main;
+            color: $color-white;
+            font-size: 15px;
+            padding: .2rem .8rem;
+            position: absolute;
+            right: 30px;
+            bottom: 10px;
+            transition: all .3 ease-in-out;
+
+            &:hover {
+              text-decoration: none;
+              opacity: .5;
+              transition: all .3 ease-in-out;
+            }
+          }
+        }
+      }
+
+      .col-right {
+        background: url('../../img/footer-bg@2x.jpg') center / cover;
+        padding: 40px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+
+        .col-one {
+          max-width: 50%;
+          justify-self: center;
+          grid-column: 1 / -1;
+        }
+
+        .col-two {
+          justify-self: center;
+        }
+
+        .col-three {
+          justify-self: center;
+        }
+
+        .footer-small-copy {
+          font-family: $font-primary;
+          font-size: 12px;
+          line-height: 18px;
+          font-weight: 300;
+          margin-top: 3rem;
+        }
+
+        .footer-copy {
+          font-family: $font-primary;
+          font-size: 18px;
+          line-height: 18px;
+          font-weight: 300;
+
+          &.regular {
+            font-weight: 400;
+            line-height: 0;
+          }
+        }
+
+        .footer-nav {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+
+          li {
+            margin-bottom: .5rem;
+
+            a {
+              color: $color-main;
+              font-family: $font-primary;
+              font-size: 1rem;
+              font-weight: 300;
+              transition: all .3s ease-in-out;
+
+              &:hover {
+                color: $color-dark;
+                text-decoration: none;
+                transition: all .3s ease-in-out;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -764,6 +868,131 @@
   }
 
   /* FOOTER ***************************************************************** */
+  .footer1 {
+    min-height: 400px;
+
+    .containerish {
+      display: grid;
+
+      .col-left {
+        background: #fff;
+        padding: 40px 20px;
+        max-width: 75%;
+        justify-self: center;
+
+        .ig-wrapper {
+          background: url('../../img/ig-img@2x.jpg') center / cover;
+          width: 100%;
+          height: 340px;
+          position: relative;
+
+          .ig-follow {
+            background: $color-main;
+            color: $color-white;
+            font-size: 15px;
+            padding: .2rem .8rem;
+            position: absolute;
+            right: 30px;
+            bottom: 10px;
+            transition: all .3 ease-in-out;
+
+            &:hover {
+              text-decoration: none;
+              opacity: .5;
+              transition: all .3 ease-in-out;
+            }
+          }
+        }
+      }
+
+      .col-right {
+        background: url('../../img/footer-bg@2x.jpg') center / cover;
+        padding: 40px 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2rem;
+
+        .col-one {
+          max-width: 100%;
+          justify-self: center;
+          grid-column: 1;
+        }
+
+        .col-two {
+          justify-self: center;
+        }
+
+        .col-three {
+          justify-self: center;
+        }
+
+        .footer-small-copy {
+          font-family: $font-primary;
+          font-size: 12px;
+          line-height: 18px;
+          font-weight: 300;
+          margin-top: 3rem;
+        }
+
+        .footer-copy {
+          font-family: $font-primary;
+          font-size: 18px;
+          line-height: 18px;
+          font-weight: 300;
+
+          &.regular {
+            font-weight: 400;
+            line-height: 0;
+          }
+        }
+
+        .footer-nav {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+
+          li {
+            margin-bottom: .5rem;
+
+            a {
+              color: $color-main;
+              font-family: $font-primary;
+              font-size: 1rem;
+              font-weight: 300;
+              transition: all .3s ease-in-out;
+
+              &:hover {
+                color: $color-dark;
+                text-decoration: none;
+                transition: all .3s ease-in-out;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer2 {
+    .containerish {
+      grid-template-columns: max-content 1fr max-content;
+      align-items: center;
+
+      .foot-left {
+        grid-row: 1;
+      }
+
+      .foot-center {
+        grid-row: 1;
+        justify-self: center;
+      }
+
+      .foot-right {
+        grid-row: 1;
+        justify-self: flex-end;
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -1073,6 +1302,113 @@
   /* NEWSLETTER ************************************************************* */
 
   /* FOOTER ***************************************************************** */
+  .footer1 {
+    min-height: 400px;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      max-width: 100%;
+
+      .col-left {
+        background: #fff;
+        padding: 40px 20px;
+        max-width: 100%;
+        justify-self: center;
+
+        .ig-wrapper {
+          background: url('../../img/ig-img@2x.jpg') center / cover;
+          width: 100%;
+          height: 340px;
+          position: relative;
+
+          .ig-follow {
+            background: $color-main;
+            color: $color-white;
+            font-size: 15px;
+            padding: .2rem .8rem;
+            position: absolute;
+            right: 30px;
+            bottom: 10px;
+            transition: all .3 ease-in-out;
+
+            &:hover {
+              text-decoration: none;
+              opacity: .5;
+              transition: all .3 ease-in-out;
+            }
+          }
+        }
+      }
+
+      .col-right {
+        background: url('../../img/footer-bg@2x.jpg') center / cover;
+        padding: 40px 20px;
+        display: grid;
+        grid-template-columns: minmax(min-content, 300px) 1fr 1fr;
+        grid-gap: 1rem;
+        width: 100%;
+
+        .col-one {
+          max-width: 100%;
+          justify-self: center;
+          grid-column: 1;
+        }
+
+        .col-two {
+          justify-self: center;
+        }
+
+        .col-three {
+          justify-self: center;
+        }
+
+        .footer-small-copy {
+          font-family: $font-primary;
+          font-size: 12px;
+          line-height: 18px;
+          font-weight: 300;
+          margin-top: 3rem;
+        }
+
+        .footer-copy {
+          font-family: $font-primary;
+          font-size: 18px;
+          line-height: 18px;
+          font-weight: 300;
+
+          &.regular {
+            font-weight: 400;
+            line-height: 0;
+          }
+        }
+
+        .footer-nav {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+
+          li {
+            margin-bottom: .5rem;
+
+            a {
+              color: $color-main;
+              font-family: $font-primary;
+              font-size: 1rem;
+              font-weight: 300;
+              transition: all .3s ease-in-out;
+
+              &:hover {
+                color: $color-dark;
+                text-decoration: none;
+                transition: all .3s ease-in-out;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
