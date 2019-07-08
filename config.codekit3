@@ -409,7 +409,7 @@
 		"oAP": "/img/jeyveau-bg@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/jeyveau-img@2x.jpg": {
@@ -486,7 +486,7 @@
 		"oAP": "/img/testimonial-bg@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/thyroidhealth-img.png": {

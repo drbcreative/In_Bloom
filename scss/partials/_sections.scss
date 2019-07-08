@@ -55,11 +55,11 @@ section {
       height: 600px;
 
       &.slide-1 {
-        background: url('../../img/hero-bg@2x.jpg') center / cover;
+        background: url('../img/hero-bg@2x.jpg') center / cover;
       }
 
       &.slide-2 {
-        background: url('../../img/hero-bg@2x.jpg') center / cover;
+        background: url('../img/hero-bg@2x.jpg') center / cover;
       }
     }
   }
@@ -69,7 +69,7 @@ section {
 /* COOLSCULPTING EVENT SECTION */
 /* -------------------------------------------------------------------------- */
 .event {
-  background: url('../../img/event-bg@2x.jpg') center / cover;
+  background: url('../img/event-bg@2x.jpg') center / cover;
   min-height: 300px;
   padding: 40px 20px;
 
@@ -86,7 +86,7 @@ section {
 /* ABOUT US SECTION */
 /* -------------------------------------------------------------------------- */
 .about {
-  background: url('../../img/about-bg@2x.jpg') center / cover;
+  background: url('../img/about-bg@2x.jpg') center / cover;
   padding: 40px 20px;
 
   .containerish {
@@ -102,7 +102,7 @@ section {
 /* COOLSCULPTING SECTION */
 /* -------------------------------------------------------------------------- */
 .coolsculpting {
-  background: url('../../img/coolsculpting-bg@2x.jpg') center / cover;
+  background: url('../img/coolsculpting-bg@2x.jpg') center / cover;
   min-height: 300px;
   padding: 40px 20px;
 
@@ -134,7 +134,7 @@ section {
     }
 
     .jeuveau-bottom {
-      background: url('../../img/jeyveau-bg@2x.jpg') center / cover;
+      background: url('../img/jeyveau-bg@2x.jpg') center / cover;
       grid-row: 2 / -1;
       grid-column: 1;
 
@@ -150,9 +150,11 @@ section {
 /* AESTHETIC SERVICES SECTION */
 /* -------------------------------------------------------------------------- */
 .aesthetic-services {
-  background: url('../../img/newsletter-bg@2x.jpg') center / cover;
+  background: url('../img/newsletter-bg@2x.jpg') center / cover;
   min-height: 200px;
+  max-height: 400px;
   padding: 40px 20px;
+  background-attachment: fixed;
 
   .containerish {
     display: grid;
@@ -193,6 +195,7 @@ section {
       .service-link {
         color: $color-main;
         transition: all .3s ease-in-out;
+        font-family: $font-primary;
 
         &:hover {
           color: $color-dark;
@@ -236,11 +239,12 @@ section {
       margin-bottom: 1rem;
 
       &::before {
-        content: url('../../img/service-bullet.png');
+        content: url('../img/service-bullet.png');
         margin-right: .5rem;
       }
 
       a {
+        font-family: $font-primary;
         font-size: 22px;
         color: $color-dark;
         transition: all .3s ease-in-out;
@@ -259,7 +263,7 @@ section {
 /* BIO SECTION */
 /* -------------------------------------------------------------------------- */
 .bio {
-  background: url('../../img/bio-bg@2x.jpg') center / cover;
+  background: url('../img/bio-bg@2x.jpg') center / cover;
   min-height: 200px;
   padding: 40px 20px;
 
@@ -277,7 +281,7 @@ section {
 /* TESTIMONIALS SECTION */
 /* -------------------------------------------------------------------------- */
 .testimonials {
-  background: url('../../img/testimonial-bg@2x.jpg') center / cover;
+  background: url('../img/testimonial-bg@2x.jpg') center / cover;
   padding: 40px 20px;
   display: flex;
   align-items: center;
@@ -350,7 +354,7 @@ section {
 
     img {
       max-width: 150px;
-      height: auto;
+      max-height: 150px;
     }
   }
 }
@@ -359,9 +363,10 @@ section {
 /* NEWSLETTER SECTION */
 /* -------------------------------------------------------------------------- */
 .newsletter {
-  background: url('../../img/newsletter-bg@2x.jpg') center / cover;
+  background: url('../img/newsletter-bg@2x.jpg') center / cover;
   min-height: 200px;
   align-items: center;
+  background-attachment: fixed;
 
   .containerish {
     padding: 40px 20px;
